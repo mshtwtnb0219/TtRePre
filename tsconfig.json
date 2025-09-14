@@ -2,8 +2,12 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
+    // ↓トラスコンパイルの指定先ディレクトリ
+    "rootDir": "./src",
+    // ↓トラスコンパイルの出力先
+    "outDir": "./dist",
+
+    "noEmitOnError": true /* 型エラーを1つでも検知したら.jsファイルを出力しないようにする。 */,
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -39,6 +43,6 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true,
+    "skipLibCheck": true
   }
 }
