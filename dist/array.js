@@ -11,4 +11,9 @@ console.log(fruits);
 // タプル
 const person = ["aaa", 12];
 console.log(person);
+// オブジェクト
+const user = {
+    name: "a", age: 123
+};
+console.log(user);
 //# sourceMappingURL=array.js.map

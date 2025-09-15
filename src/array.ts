@@ -12,3 +12,12 @@ console.log(fruits)
 // タプル
 const person: [string,number]= ["aaa",12]
 console.log(person)
+
+// オブジェクト
+const user: {name: string; age: number} = {
+    name:"a",age:123
+}
+
+console.log(user)
+
+
